@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>Bootstrap</title>
+    </head>
+    <body>
+        <main class="container">
+            <h1>Test Form</h1>
+            <form  class="col-9" action="https://www.oit.edu/cst465" method="post">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="UserType">User Type:</label>
+                        <select class="form-control" id="UserType" name="UserType">
+                            <option selected disabled>User...</option>
+                            <option value="1">student</option>
+                            <option value="2">faculty</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="username">Username:</label>
+                        <input type="text" class="form-control" id="username" name="Name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md">
+                        <label for="Biography">Biography:</label>
+                        <textarea class="form-control" id="Biography" name="Biography"></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="emailAddress">Email:</label>
+                        <input type="text" class="form-control" id="emailAddress" name="EmailAddress">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="band">Favorite Band:</label>
+                        <input type="text" class="form-control" id="Band" name="Band">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="hobby">Hobby:</label>
+                        <input type="text" class="form-control" id="hobby" name="Hobby">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="coursePrefix">Course Prefix:</label>
+                        <input type="text" class="form-control" id="coursePrefix" name="CoursePrefix">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="courseNumber">Course Number:</label>
+                        <input type="text" class="form-control" id="courseNumber" name="CourseNumber">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="courseDescription">Course Description:</label>
+                        <input type="text" class="form-control" id="courseDescription" name="CourseDescription">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="nickName">NickName:</label>
+                        <input type="text" class="form-control" id="nickName" name="Nickname">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+        </main>
+    </body>
+</html>
